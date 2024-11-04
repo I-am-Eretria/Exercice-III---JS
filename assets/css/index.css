@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2E3239;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+#carres1-4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin: 100px 0;
+}
+
+.carres1-2,
+.carres2-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.carres{
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #5F7ADB;
+    color: white;
+    font-weight: 600;
+    font-size: larger;
+
+    transition: ease-in-out .4s;
+    cursor: pointer;
+}
+
+.active{
+    background-color: #eac9a4;
+    transform: rotate(360deg) scale(0.9, 0.9);
+}
+
